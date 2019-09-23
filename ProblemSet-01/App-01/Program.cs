@@ -15,7 +15,7 @@ namespace App_01
             Console.Write("Enter the upperlimit= ");
             int upperLimit = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("All the integers between upperlimit and lowerlimit is:");
+            Console.WriteLine("All the integers between upperlimit and lowerlimit are:");
             for (int i = lowerLimit; i <= upperLimit; i++)
             {
                 Console.WriteLine(i);

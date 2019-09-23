@@ -10,8 +10,8 @@ namespace App_02
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("All the even numbers from 1 to 100 are:");
-           for (int i = 1; i <= 100; i++)
+            Console.WriteLine("All the even numbers from 1 to 100 are: ");
+            for (int i = 1; i <= 100; i++)
             {
                 if(i % 2 == 0)
                 {
